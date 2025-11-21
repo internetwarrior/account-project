@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "http://www.kabgroup.kg/$1",
+      "permanent": true
+    }
+  ]
+}
