@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Optional: explicitly setting all the font weights for better control */
+body {
+  font-weight: 400; /* Default weight, can be changed dynamically */
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+html {
+  scroll-behavior: smooth;
+}
+.input-container::after {
+  content: " *";
+  color: red;
+  font-size: 20px; /* Adjust size */
+  position: absolute;
+  right: 10px; /* Adjust position */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-telegram {
+  background: linear-gradient(135deg, #37aee2, #1e96c8);
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 56px !important;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
+
+.App .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Allow the slide to take up the full height */
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make sure the content inside slides stretches to fit */
+}
+
+.slick-list {
+  display: flex;
+  align-items: stretch;
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.slick-slide > div {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+}
+
+/* * {
+  outline: greenyellow 1px solid;
+} */
