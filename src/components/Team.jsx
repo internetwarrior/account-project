@@ -14,7 +14,6 @@ import user_7 from "../assets/png/profile/user_7.png";
 import user_8 from "../assets/png/profile/user_8.png";
 import user_9 from "../assets/png/profile/user_9.png";
 import Slider from "react-slick";
-import { div } from "three/tsl";
 function Team() {
   const users = [
     user_1,
