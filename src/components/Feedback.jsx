@@ -12,7 +12,6 @@ import logo_5 from "../assets/png/company_logos/logo_5.png";
 import logo_6 from "../assets/png/company_logos/logo_6.png";
 import logo_7 from "../assets/png/company_logos/logo_7.png";
 import Slider from "react-slick";
-import { div } from "three/tsl";
 
 function Feedback() {
   const { t } = useTranslation();
